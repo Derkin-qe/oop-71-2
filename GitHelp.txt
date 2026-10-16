@@ -1,0 +1,62 @@
+Команды для регистрации ваших данных
+1) git config --global user.name "your_username"
+2) git config --global user.email "your_username@gmai.com"
+
+
+
+Команды только для одно проекта
+
+3) git init        | Инициализация Гита
+4) git remote add origin link_to_repository | Добавление репозитория
+
+================================================
+Частые команды
+
+5) git status      | Статус репозитория
+6) git add .       | Добавление файлов в буфер обмена
+7) git commit -m "message" | сохранение всего из буфера обмена
+8) git push origin master   | Отправка изменений в репозитории
+9) git config --global credential.helper credential-manager   | Для сохранения данных учетки
+10) git branch        | Список веток
+11) git branch name_branch        | Создание новой ветки
+11) git switch name_branch        | переключение на указаную ветку
+11) git merge branch_name        | стянуть изменения из указной ветки
+12) git clone link_to_project    | Для клонирования проекта
+
+
+
+
+deactivate
+
+source .venv/bin/activate
+.venv\Scripts\activate
+source .venv/Scripts/activate
+
+
+создать виртуальное окружение (телефон для проекта)
+py -m venv name_vane
+python -m venv name_vane
+python3 -m venv name_vane
+
+для создания списка всех скачаных зависимостей
+pip freeze -> requirements.txt
+
+для того что бы скачать модуль
+pip install module_name
+
+для того что бы скачать все что есть в указаном файле
+pip install -r requirements.txt
+
+production
+
+develop
+
+feat/register
+feat/login
+feat/reset_pass
+
+-m "feat: register #123"
+-m "fix: register "
+-m "update: register "
+-m "HotFix: register "
+
